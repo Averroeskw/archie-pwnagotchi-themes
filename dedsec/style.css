@@ -1,1 +1,14 @@
-/* DEDSEC theme */
+/* Theme Style */
+body {
+    background-color: #000000;
+    color: rgb(0, 255, 128);
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+.status {
+    color: rgb(0, 255, 128);
+}
+
+.face {
+    color: rgb(0, 255, 128);
+}

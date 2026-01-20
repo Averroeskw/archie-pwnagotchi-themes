@@ -1,6 +1,7 @@
 {
   "name": "SECTION9",
-  "author": "Epic Generator",
-  "version": "2.0",
-  "description": "SECTION9 - Enhanced cyberpunk theme"
+  "author": "Archie",
+  "version": "1.0",
+  "description": "SECTION9 theme for Pwnagotchi",
+  "display": "320x240"
 }

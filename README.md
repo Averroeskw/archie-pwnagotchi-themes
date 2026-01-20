@@ -1,35 +1,34 @@
 # Archie's Pwnagotchi Themes
 
-Custom Fancygotchi themes for Pwnagotchi with epic visual effects.
+Custom Fancygotchi themes for Pwnagotchi with real pixel art faces and backgrounds.
 
 **Made by Archie**
 
 ## Themes Included
 
-| Theme | Inspired By | Boot Animation Style |
-|-------|-------------|---------------------|
-| **dedsec** | Watch Dogs | Matrix Rain |
-| **gits** | Ghost in the Shell | Glitch Effect |
-| **lain** | Serial Experiments Lain | Terminal Boot |
-| **nerv** | Neon Genesis Evangelion | Glitch Effect |
-| **akira** | Akira (Neo-Tokyo) | Matrix Rain |
-| **fsociety** | Mr. Robot | Terminal Boot |
-| **deusex** | Deus Ex | Glitch Effect |
-| **bladerunner** | Blade Runner | Matrix Rain |
-| **transistor** | Transistor | Terminal Boot |
-| **shodan** | System Shock | Glitch Effect |
-| **awgeez** | Rick and Morty | Matrix Rain |
-| **neurallink** | Neural Network | Terminal Boot |
+| Theme | Inspired By | Face Style | Background |
+|-------|-------------|------------|------------|
+| **morty** | Rick and Morty | Real Morty pixel art | Custom yellow |
+| **rick** | Rick and Morty | Real Rick pixel art | Custom blue |
+| **hackers** | Hackers (1995) | Movie-style bomb icon | Retro green |
+| **holo** | Spice and Wolf | Wolf/anime pixel art | Pink anime |
+| **dedsec** | Watch Dogs | Hacker ASCII | DedSec Wrench artwork |
+| **gits** | Ghost in the Shell | Cyber ASCII | Grid + Laughing Man |
+| **fsociety** | Mr. Robot | Hacker ASCII | DedSec Reaper artwork |
+| **cyberpunk** | Cyberpunk 2077 | Netrunner ASCII | DedSec Hackerden |
+| **lain** | Serial Experiments Lain | Glitch ASCII | Glitch pattern |
+| **nerv** | Neon Genesis Evangelion | Mecha ASCII | Hexagon pattern |
+| **akira** | Akira (Neo-Tokyo) | Neo Tokyo ASCII | Neon streaks |
+| **vaultboy** | Fallout | Vault Boy style | Retro gold |
 
-## Visual Effects
+## Features
 
-- CRT scanline overlays
-- Vignette darkening at screen edges
-- Matrix rain falling character animations
-- Glitch/RGB split effects
-- Terminal-style typing boot sequences
-- Glow effects on face expressions
-- Themed procedural backgrounds (grids, hexagons, circuits)
+- Real pixel art faces (Morty, Rick, Holo, Hackers themes)
+- High-quality DedSec backgrounds from Watch Dogs
+- Laughing Man logo integration for Ghost in the Shell theme
+- Terminal-style boot animations
+- Optimized for 320x240 Display Hat Mini
+- Pre-rotated 180° for correct display orientation
 
 ## Installation
 
@@ -40,7 +39,7 @@ scp -r * pi@10.0.0.2:/usr/local/share/pwnagotchi/custom-plugins/themes/
 
 2. Set your theme in `/etc/pwnagotchi/config.toml`:
 ```toml
-main.plugins.fancygotchi.theme = "dedsec"
+main.plugins.fancygotchi.theme = "morty"
 ```
 
 3. Restart Pwnagotchi:
@@ -60,4 +59,9 @@ MIT License - Free to use and modify.
 
 ## Credits
 
-Created by **Archie** with love for the Pwnagotchi community.
+Created by **Archie**
+
+### Artwork Sources
+- Face artwork from [PWNAGOTCHI-CUSTOM-FACES-MOD](https://github.com/roodriiigooo/PWNAGOTCHI-CUSTOM-FACES-MOD)
+- DedSec backgrounds from [dedsec-grub2-theme](https://github.com/VandalByte/dedsec-grub2-theme)
+- Laughing Man logo from [Laughing-Man-Logo](https://github.com/WeirdConstructor/Laughing-Man-Logo)

@@ -1,6 +1,7 @@
 {
   "name": "DEDSEC",
-  "author": "Epic Generator",
-  "version": "2.0",
-  "description": "DEDSEC - Enhanced cyberpunk theme"
+  "author": "Archie",
+  "version": "1.0",
+  "description": "DEDSEC theme for Pwnagotchi",
+  "display": "320x240"
 }

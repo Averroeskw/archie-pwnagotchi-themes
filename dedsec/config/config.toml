@@ -1,100 +1,104 @@
-[theme.dev]
-refresh = -1
-log = true
-debug = false
+# DEDSEC Theme Configuration
+# Made by Archie
+
+[theme]
+name = "DEDSEC"
+author = "Archie"
+version = "1.0"
 
 [theme.options]
-stealth_mode = false
-fg_image = ""
-bg_color = "#000000"
-bg_image = "320x240-bg.png"
-bg_anim_image = ""
-font_sizes = [ 10, 8, 10, 55, 25, 9,]
-font = "DejaVuSansMono"
-font_bold = "DejaVuSansMono-Bold.ttf"
-status_font = "DejaVuSansMono"
-font_awesome = "font-awesome-solid.otf"
-label_spacing = 9
-size_offset = 5
-cursor = ">"
-base_text_color = [ "#00ffff",]
-main_text_color = []
-color_mode = [ "RGB", "RGB",]
-boot_animation = true
-boot_max_loops = 1
-boot_total_duration = 4
+bg_color = "(0, 0, 0)"
+main_color = "(0, 255, 128)"
 
-[theme.widget.face]
-position = [ 160, 110,]
-text_font_size = "Huge"
-color = [ "#00ffff",]
-icon = true
-icon_color = false
-mask = false
-refine = 150
-image_type = "png"
-f_awesome = false
-zoom = 0
-z_axis = 102
+[theme.fonts]
+main = "DejaVuSansMono"
+bold = "DejaVuSansMono-Bold"
 
-[theme.widget.name]
-position = [ 160, 25,]
-text_font_size = "Bold"
-color = [ "#00ffff",]
-z_axis = 100
+[ui]
+fps = 0
+font_name = "DejaVuSansMono"
+font_size_status = 9
+font_size_stats = 9
 
-[theme.widget.channel]
-position = [ 285, 8,]
-label = "CH"
-label_font_size = "Medium"
-text_font_size = "Medium"
-label_spacing = 3
-color = [ "#00ffff",]
-z_axis = 0
+[ui.faces]
+look_r = "( > _ > )"
+look_l = "( < _ < )"
+look_r_happy = "( ^ _ > )"
+look_l_happy = "( < _ ^ )"
+sleep = "( - _ - ) z z"
+sleep2 = "( - _ - ) z z z"
+awake = "( o _ o )"
+bored = "( - _ - )"
+intense = "( @ _ @ )"
+cool = "( ⌐■_■ )"
+happy = "( ^ _ ^ )"
+excited = "( * o * )"
+grateful = "( ^ _ ^ )b"
+motivated = "( > _ < )"
+demotivated = "( ; _ ; )"
+smart = "( ◉ _ ◉ )"
+lonely = "( . _ . )"
+sad = "( T _ T )"
+angry = "( ` _ ´ )"
+friend = "( ^ _ ^ )/"
+broken = "( x _ x )"
+debug = "[ DEBUG ]"
+upload = "[ >>> ]"
+upload1 = "[ >>>> ]"
+upload2 = "[ >>>>> ]"
 
-[theme.widget.aps]
-position = [ 225, 8,]
-label = "AP"
-label_font_size = "Medium"
-text_font_size = "Medium"
-label_spacing = 3
-color = [ "#00ffff",]
-z_axis = 0
+[ui.web]
+enabled = true
 
-[theme.widget.uptime]
-position = [ 8, 8,]
-label = "UP"
-label_font_size = "Medium"
-text_font_size = "Medium"
-label_spacing = 3
-color = [ "#00ffff",]
-z_axis = 0
+[fancygotchi]
+rotation = 180
 
-[theme.widget.mode]
-position = [ 90, 8,]
-text_font_size = "Bold"
-color = [ "#00ffff",]
-z_axis = 0
+[fancygotchi.status]
+position = "(5, 5)"
+font_size = 9
 
-[theme.widget.status]
-position = [ 160, 190,]
-text_font_size = "Medium"
-color = [ "#00ffff",]
-wrap = true
-max = 35
-z_axis = 0
+[fancygotchi.channel]
+position = "(5, 20)"
+font_size = 9
 
-[theme.widget.shakes]
-position = [ 8, 222,]
-label = "PWND"
-label_font_size = "Medium"
-text_font_size = "Medium"
-label_spacing = 3
-color = [ "#00ffff",]
-z_axis = 0
+[fancygotchi.aps]
+position = "(5, 35)"
+font_size = 9
 
-[theme.widget.clock]
-position = [ 280, 222,]
-text_font_size = "Medium"
-color = [ "#00ffff",]
-z_axis = 0
+[fancygotchi.uptime]
+position = "(250, 5)"
+font_size = 9
+
+[fancygotchi.mode]
+position = "(250, 20)"
+font_size = 9
+
+[fancygotchi.handshakes]
+position = "(250, 35)"
+font_size = 9
+
+[fancygotchi.face]
+position = "(110, 100)"
+
+[fancygotchi.name]
+position = "(160, 200)"
+font_size = 12
+
+[fancygotchi.friend_face]
+position = "(10, 100)"
+
+[fancygotchi.friend_name]
+position = "(10, 160)"
+font_size = 9
+
+[fancygotchi.shakes]
+position = "(10, 180)"
+font_size = 9
+
+[fancygotchi.pwnd_run]
+position = "(10, 195)"
+font_size = 9
+
+[fancygotchi.pwnd_tot]
+position = "(10, 210)"
+font_size = 9

@@ -1,1 +1,14 @@
-/* AKIRA theme */
+/* Theme Style */
+body {
+    background-color: #000000;
+    color: rgb(255, 0, 50);
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+.status {
+    color: rgb(255, 0, 50);
+}
+
+.face {
+    color: rgb(255, 0, 50);
+}

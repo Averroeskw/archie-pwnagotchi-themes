@@ -1,6 +1,7 @@
 {
   "name": "FSOCIETY",
-  "author": "Epic Generator",
-  "version": "2.0",
-  "description": "FSOCIETY - Enhanced cyberpunk theme"
+  "author": "Archie",
+  "version": "1.0",
+  "description": "FSOCIETY theme for Pwnagotchi",
+  "display": "320x240"
 }
