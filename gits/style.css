@@ -1,14 +1,1 @@
-/* Theme Style */
-body {
-    background-color: #000000;
-    color: rgb(0, 200, 255);
-    font-family: 'DejaVu Sans Mono', monospace;
-}
-
-.status {
-    color: rgb(0, 200, 255);
-}
-
-.face {
-    color: rgb(0, 200, 255);
-}
+body { color: rgb(0,200,255); }

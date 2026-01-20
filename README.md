@@ -8,18 +8,18 @@ Custom Fancygotchi themes for Pwnagotchi with real pixel art faces and backgroun
 
 | Theme | Inspired By | Face Style | Background |
 |-------|-------------|------------|------------|
-| **morty** | Rick and Morty | Real Morty pixel art | Custom yellow |
-| **rick** | Rick and Morty | Real Rick pixel art | Custom blue |
-| **hackers** | Hackers (1995) | Movie-style bomb icon | Retro green |
+| **morty** | Rick and Morty | Real Morty pixel art | Custom |
+| **rick** | Rick and Morty | Real Rick pixel art | Custom |
+| **hackers** | Hackers (1995) | Bomb icon pixel art | Retro green grid |
 | **holo** | Spice and Wolf | Wolf/anime pixel art | Pink anime |
-| **dedsec** | Watch Dogs | Hacker ASCII | DedSec Wrench artwork |
-| **gits** | Ghost in the Shell | Cyber ASCII | Grid + Laughing Man |
-| **fsociety** | Mr. Robot | Hacker ASCII | DedSec Reaper artwork |
-| **cyberpunk** | Cyberpunk 2077 | Netrunner ASCII | DedSec Hackerden |
-| **lain** | Serial Experiments Lain | Glitch ASCII | Glitch pattern |
-| **nerv** | Neon Genesis Evangelion | Mecha ASCII | Hexagon pattern |
-| **akira** | Akira (Neo-Tokyo) | Neo Tokyo ASCII | Neon streaks |
-| **vaultboy** | Fallout | Vault Boy style | Retro gold |
+| **vaultboy** | Fallout | Real Vault Boy pixel art | Retro gold |
+| **dedsec** | Watch Dogs | Skull mask with X eyes | DedSec Wrench artwork |
+| **gits** | Ghost in the Shell | Cyber visor + circuits | Cyber grid |
+| **fsociety** | Mr. Robot | Red skull mask | DedSec Reaper artwork |
+| **lain** | Serial Experiments Lain | Bear suit face | Glitch pattern |
+| **nerv** | Neon Genesis Evangelion | EVA-01 mecha head | Hexagon pattern |
+| **akira** | Akira (Neo-Tokyo) | Red pill capsule "41" | Neon streaks |
+| **cyberpunk** | Cyberpunk 2077 | Yellow cyber visor | DedSec Hackerden |
 
 ## Features
 

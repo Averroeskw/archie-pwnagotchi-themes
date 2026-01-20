@@ -1,7 +1,1 @@
-{
-  "name": "MORTY",
-  "author": "Archie",
-  "version": "1.0",
-  "description": "MORTY theme for Pwnagotchi",
-  "display": "320x240"
-}
+{"name": "MORTY", "author": "Archie", "version": "2.0"}
