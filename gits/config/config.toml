@@ -1,15 +1,90 @@
-[theme]
-name = "SECTION9"
-author = "Archie"
-
 [theme.options]
-main_color = "(0, 200, 255)"
+stealth_mode = false
+fg_image = ""
+bg_color = "black"
+bg_image = "320x240-bg.png"
+bg_anim_image = ""
+font_sizes = [ 10, 8, 10, 25, 25, 9,]
+font = "DejaVuSansMono"
+font_bold = "DejaVuSansMono-Bold"
+status_font = "DejaVuSansMono"
+font_awesome = ""
+size_offset = 5
+label_spacing = 9
+cursor = ">"
+main_text_color = [ "cyan",]
+color_mode = [ "RGB", "RGB",]
+boot_animation = true
+boot_max_loops = 1
+boot_total_duration = 3
 
-[fancygotchi]
-rotation = 180
+[theme.dev]
+log = true
+debug = false
 
-[fancygotchi.face]
-position = "(110, 100)"
+[theme.widget.face]
+position = [ 110, 80,]
+color = [ "cyan",]
+z_axis = 102
+text_font_size = "Huge"
+icon = true
+icon_color = true
+mask = true
+refine = 100
+zoom = 1
+image_type = "png"
 
-[fancygotchi.name]
-position = "(160, 200)"
+[theme.widget.name]
+position = [ 160, 25,]
+text_font_size = "Bold"
+color = [ "cyan",]
+z_axis = 100
+
+[theme.widget.channel]
+position = [ 285, 8,]
+label = "CH"
+label_font_size = "Medium"
+text_font_size = "Medium"
+label_spacing = 3
+color = [ "cyan",]
+
+[theme.widget.aps]
+position = [ 225, 8,]
+label = "AP"
+label_font_size = "Medium"
+text_font_size = "Medium"
+label_spacing = 3
+color = [ "cyan",]
+
+[theme.widget.uptime]
+position = [ 8, 8,]
+label = "UP"
+label_font_size = "Medium"
+text_font_size = "Medium"
+label_spacing = 3
+color = [ "cyan",]
+
+[theme.widget.mode]
+position = [ 90, 8,]
+text_font_size = "Bold"
+color = [ "cyan",]
+
+[theme.widget.status]
+position = [ 160, 190,]
+text_font_size = "Medium"
+color = [ "cyan",]
+wrap = true
+max_length = 35
+
+[theme.widget.shakes]
+position = [ 8, 222,]
+label = "PWND"
+label_font_size = "Medium"
+text_font_size = "Medium"
+label_spacing = 3
+color = [ "cyan",]
+
+[theme.widget.clock]
+position = [ 280, 222,]
+text_font_size = "Medium"
+color = [ "cyan",]
